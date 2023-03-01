@@ -1,0 +1,111 @@
+body{
+    background-color: #110d0d;
+}
+.main{
+    width: 350px;
+    height: 550px;
+    border: 2px solid #110d0d;
+    background-color:brown;
+    padding-top: 40px;
+    padding-left: 40px;
+    position: relative;
+    top: 50px;
+    left: 500px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.lables{
+    width: 310px;
+    height: 132px;
+}
+.input-one{
+    width: 300px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-size: 40px;
+    text-align: right;
+    border-style: none;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.input-two{
+    width: 300px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-size: 20px;
+    border-style: none;
+    padding: 2px;
+}
+
+.input-one,.input-two:focus{
+    outline: none;
+}
+
+.buttons{
+
+    width: 310px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.new,.new1,.new2,.new3,.new4{
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-button,.SCF-button,.per-button,.add-button
+,.seven-button,.eight-button,.nine-button,.subs-button
+,.four-button,.five-button,.six-button,.mul-button
+,.one-button,.two-button,.three-button,.div-button
+,.zero-button,.point-button{
+    width: 75px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+    margin: 0.5px;
+    border: 0.2px solid rgb(175, 154, 127);
+}
+.equal-button{
+    width: 152px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    border-style: none;
+    margin: 1px;
+}
+
+.clear-button{
+    width: 305px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightcoral;
+    border-style: none;
+    margin: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.delete-button{
+    color: white;
+    background-color: red;
+}
+
+.add-button,.subs-button,.mul-button,.div-button{
+    color: red;
+    background-color: rgb(184, 151, 107);
+}
